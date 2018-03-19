@@ -52,3 +52,16 @@ function quickSort(arr) {
   return [].concat(quickSort(left), middle, quickSort(right));
 }
 // console.log(quickSort(arr));
+
+function bubbleSort(arr) {
+  for (let len = arr.length, i = 0; i < len; i++) {
+    for (let j = i + 1; j < len; j++) {
+      if (arr[i] > arr[j]) {
+        [arr[i], arr[j]] = [arr[j], arr[i]];
+      }
+    }
+  }
+  return arr;
+}
+
+// console.log(bubbleSort(arr));
