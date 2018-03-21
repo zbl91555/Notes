@@ -65,6 +65,9 @@ function bubbleSort(arr) {
 }
 // console.log(bubbleSort(arr));
 
-function selectSort() {}
+function selectSort() {
+}
 
-function insertSort() {}
+function insertSort() {
+}
+
